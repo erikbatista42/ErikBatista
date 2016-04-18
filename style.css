@@ -1,0 +1,79 @@
+body {
+	background-color: purple;
+}
+h3 {
+	position: absolute;
+	top:120px;
+	left: 250px;
+	font-size: 125px;
+	color: white;
+	font-family: courier;
+
+}
+
+
+#sidebar {
+	background: grey;
+	width: 200px;
+	height: 100%;
+	position: absolute;
+	left: -200px;
+	top: 0px;
+	transition: left 0.3s linear;
+}
+
+#sidebar.visible {
+	left: 0px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+ul > li {
+	list-style: none;
+}
+ul li a {
+	text-decoration: none;
+	font-family: Helvetica;
+	background: green;
+	color: white;
+	display: block;
+	border-bottom: 1px solid yellow;
+	width: 180px;
+	padding: 10px;
+}
+
+#sidebar-btn {
+	display: inline-block;
+	vertical-align: middle;
+	width: 40px;
+	height: 20px;
+	cursor: pointer;
+	margin: 20px;
+	position: absolute;
+	top: 0px;
+	right: -100px;
+}
+#sidebar-btn span {
+	height: 3px;
+	background-color: black;
+	display: block;
+	margin-bottom: 7px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
