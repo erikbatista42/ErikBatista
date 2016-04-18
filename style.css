@@ -29,6 +29,7 @@ h3 {
 ul {
 	margin: 0px;
 	padding: 0px;
+	text-align: center;
 }
 ul > li {
 	list-style: none;
@@ -39,11 +40,18 @@ ul li a {
 	background: #1C1E1F;
 	color: white;
 	display: block;
-	border-bottom: 1px solid blue;
+	border-bottom: 1px solid purple;
 	width: 180px;
 	padding: 10px;
+	
 }
-
+.p1 {
+	color: white;
+	font-size: 13px;
+	font-family: helvetica;
+	position: relative;
+	padding-top: 500px;
+}
 #sidebar-btn {
 	display: inline-block;
 	vertical-align: middle;
@@ -56,7 +64,7 @@ ul li a {
 	right: -80px;
 }
 #sidebar-btn span {
-	height: 3px;
+	height: 2px;
 	background-color: black;
 	display: block;
 	margin-bottom: 7px;
@@ -67,6 +75,24 @@ ul li a {
 }
 #sidebar-btn span:nth-child(3) {
 	width: 50%;
+}
+.pictures {
+	padding-top: 500px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 10px;
+}
+.twitter {
+	height: 50px;
+	width: 50px;
+}
+.instagram{
+	height: 50px;
+	width: 50px;
+}
+.facebook {
+	height: 50px;
+	width: 50px;
 }
 
 
