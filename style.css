@@ -13,7 +13,7 @@ h3 {
 
 
 #sidebar {
-	background: grey;
+	background: #151718;
 	width: 200px;
 	height: 100%;
 	position: absolute;
@@ -36,10 +36,10 @@ ul > li {
 ul li a {
 	text-decoration: none;
 	font-family: Helvetica;
-	background: green;
+	background: #1C1E1F;
 	color: white;
 	display: block;
-	border-bottom: 1px solid yellow;
+	border-bottom: 1px solid blue;
 	width: 180px;
 	padding: 10px;
 }
@@ -53,15 +53,22 @@ ul li a {
 	margin: 20px;
 	position: absolute;
 	top: 0px;
-	right: -100px;
+	right: -80px;
 }
 #sidebar-btn span {
 	height: 3px;
 	background-color: black;
 	display: block;
 	margin-bottom: 7px;
-
+	background-color: white;
 }
+#sidebar-btn span:nth-child(2) {
+	width: 75%
+}
+#sidebar-btn span:nth-child(3) {
+	width: 50%;
+}
+
 
 
 
