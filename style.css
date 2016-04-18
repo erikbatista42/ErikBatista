@@ -1,6 +1,22 @@
 body {
-	background-color: purple;
+	background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/black-and-white-wallpaper-5.jpg");
 }
+.main-content {
+	max-width: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+	.main-content,
+	.sidebar {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 430px) {}
+
+
+
 h3 {
 	position: absolute;
 	top:120px;
@@ -43,7 +59,9 @@ ul li a {
 	border-bottom: 1px solid purple;
 	width: 180px;
 	padding: 10px;
-	
+}
+ul li a:hover {
+	background: #3d3d5c;
 }
 .p1 {
 	color: white;
