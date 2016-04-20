@@ -48,8 +48,9 @@ ul {
 	padding: 0px;
 	text-align: center;
 }
-ul > li {
-	list-style: 
+ul > li:hover {
+	
+
 }
 ul li a {
 	text-decoration: none;
@@ -60,10 +61,13 @@ ul li a {
 	border-bottom: 1px solid purple;
 	width: 200px;
 	padding: 10px;
-
+	list-style: none;
+	
 }
 ul li a:hover {
 	background: #3d3d5c;
+	color: white;
+	list-style: none;
 }
 .p1 {
 	color: white;
@@ -103,14 +107,23 @@ ul li a:hover {
 	margin: 10px;
 }
 .twitter {
+	position: absolute;
+	bottom: 0px;
+	left: 10px;
 	height: 50px;
 	width: 50px;
 }
 .instagram{
+	position: absolute;
+	left: 75px;
+	bottom: 0px;
 	height: 50px;
 	width: 50px;
 }
 .facebook {
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
 	height: 50px;
 	width: 50px;
 }
