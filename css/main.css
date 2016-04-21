@@ -1,6 +1,7 @@
 body {
-	background-image: url("http://eskipaper.com/images/stars-wallpaper-20.jpg");
+	/*background-image: url("http://eskipaper.com/images/stars-wallpaper-20.jpg");*/
 	background: cover;
+	background-color: blue;
 }
 .main-content {
 	max-width: 1000px;
@@ -59,7 +60,7 @@ ul li a {
 	color: white;
 	display: block;
 	border-bottom: 1px solid purple;
-	width: 200px;
+	width: 180px;
 	padding: 10px;
 	list-style: none;
 	
@@ -127,6 +128,10 @@ ul li a:hover {
 	height: 50px;
 	width: 50px;
 }
+@media  (max-width:480px) {
+	body {background-color: green;}
+}
+
 
 
 
