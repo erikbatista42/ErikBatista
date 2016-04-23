@@ -90,10 +90,9 @@ ul li a:hover {
 }
 #sidebar-btn span {
 	height: 2px;
-	background-color: black;
+	background-color: white;
 	display: block;
 	margin-bottom: 7px;
-	background-color: white;
 }
 #sidebar-btn span:nth-child(2) {
 	width: 75%
@@ -128,12 +127,34 @@ ul li a:hover {
 	height: 50px;
 	width: 50px;
 }
-@media  (max-width:480px) {
-	body {background-color: green;}
+
+
+@media (min-width:1200px) {
+	body {
+		background-color: green;
+		max-width: 1200px;
+	}
 }
-
-
-
+@media (min-width: 768px) and (max-width: 979px){
+	body {
+		background-color: yellow;
+		max-width: 768px;
+	}
+	}
+}
+@media (max-width: 767px) {
+	body {
+		background-color: gray;
+		max-width: 767px;
+	}
+	}
+}
+@media (max-width: 480px) {
+	body {
+		background-color: purple;
+		max-width: 480px;
+	}
+}
 
 
 
