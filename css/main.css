@@ -7,15 +7,6 @@ body {
 	max-width: 1000px;
 }
 
-@media screen and (max-width: 700px) {
-	.main-content,
-	.sidebar {
-		float: none;
-		width: 100%;
-	}
-}
-
-@media screen and (max-width: 430px) {}
 
 
 
@@ -142,23 +133,12 @@ ul li a:hover {
 	}
 	}
 }
-@media (max-width: 767px) {
+@media (min-width: 767px) and (max-width: 970px) {
 	body {
 		background-color: gray;
-		max-width: 767px;
-	}
-	}
-}
-@media (max-width: 480px) {
-	body {
-		background-color: purple;
-		max-width: 480px;
+		max-width: 970px;
 	}
 }
-
-
-
-
 
 
 
