@@ -1,15 +1,108 @@
+					/*------------------------------------------SIDEBAR STARTS HERE----------------------------------------*/
+										/*sidebar BTN*/
+										#sidebar-btn {
+											display: inline-block;
+											vertical-align: middle;
+											width: 40px;
+											height: 20px;
+											cursor: pointer;
+											margin: 20px;
+											position: absolute;
+											top: 0px;
+											right: -80px;
+										}
+										#sidebar-btn span {
+											height: 2px;
+											background-color: white;
+											display: block;
+											margin-bottom: 7px;
+										}
+										#sidebar-btn span:nth-child(2) {
+											width: 75%
+										}
+										#sidebar-btn span:nth-child(3) {
+											width: 50%;
+										}
+										/*sidebar BTN ends here*/
+
+										/*INSIDE SIDEBAR*/
+										#sidebar {
+											background: #151718;
+											width: 200px;
+											height: 100%;
+											position: absolute;
+											left: -200px;
+											top: 0px;
+											transition: left 0.3s linear;
+										}
+
+										#sidebar.visible {
+											left: 0px;
+										}
+
+										ul {
+											margin: 0px;
+											padding: 0px;
+											text-align: center;
+										}
+										ul li a {
+											text-decoration: none;
+											font-family: Helvetica;
+											background: #1C1E1F;
+											color: white;
+											display: block;
+											border-bottom: 1px solid cyan;
+											width: 180px;
+											padding: 10px;
+											list-style: none;
+
+										}
+										ul li a:hover {
+											background: #3d3d5c;
+											color: white;
+											list-style: none;
+										}
+
+										.pictures {
+											padding-top: 500px;
+											padding-left: 10px;
+											padding-right: 10px;
+											margin: 10px;
+										}
+										.twitter {
+											position: absolute;
+											bottom: 0px;
+											left: 10px;
+											height: 50px;
+											width: 50px;
+										}
+										.instagram{
+											position: absolute;
+											left: 75px;
+											bottom: 0px;
+											height: 50px;
+											width: 50px;
+										}
+										.facebook {
+											position: absolute;
+											right: 10px;
+											bottom: 0px;
+											height: 50px;
+											width: 50px;
+										}
+										/*INSIDE SIDEBAR ENDS HERE*/
+						/*------------------------------------------SIDEBAR ENDS HERE----------------------------------------*/
+.container {
+	width: 960px;
+	margin: 0;
+}
+
+
 body {
-	/*background-image: url("http://eskipaper.com/images/stars-wallpaper-20.jpg");*/
-	background: cover;
-	background-color: blue;
+	/*background-image: url("http://eskipaper.com/images/stars-wallpaper-20.jpg");
+	background: cover; */
+	background-color: cyan;
 }
-.main-content {
-	max-width: 1000px;
-}
-
-
-
-
 h3 {
 	position: absolute;
 	top:120px;
@@ -17,128 +110,20 @@ h3 {
 	font-size: 125px;
 	color: white;
 	font-family: courier;
-
+	float:  left;
 }
 
-
-#sidebar {
-	background: #151718;
-	width: 200px;
-	height: 100%;
-	position: absolute;
-	left: -200px;
-	top: 0px;
-	transition: left 0.3s linear;
+@media screen and  (max-width: 959px) {
+	.container	 {	width: 100%; 	}
+	.col-md-6	 {	width: 100%;	}
 }
-
-#sidebar.visible {
-	left: 0px;
-}
-
-ul {
-	margin: 0px;
-	padding: 0px;
-	text-align: center;
-}
-ul > li:hover {
-	
-
-}
-ul li a {
-	text-decoration: none;
-	font-family: Helvetica;
-	background: #1C1E1F;
-	color: white;
-	display: block;
-	border-bottom: 1px solid purple;
-	width: 180px;
-	padding: 10px;
-	list-style: none;
-	
-}
-ul li a:hover {
-	background: #3d3d5c;
-	color: white;
-	list-style: none;
-}
-.p1 {
-	color: white;
-	font-size: 13px;
-	font-family: helvetica;
-	position: relative;
-	padding-top: 500px;
-}
-#sidebar-btn {
-	display: inline-block;
-	vertical-align: middle;
-	width: 40px;
-	height: 20px;
-	cursor: pointer;
-	margin: 20px;
-	position: absolute;
-	top: 0px;
-	right: -80px;
-}
-#sidebar-btn span {
-	height: 2px;
-	background-color: white;
-	display: block;
-	margin-bottom: 7px;
-}
-#sidebar-btn span:nth-child(2) {
-	width: 75%
-}
-#sidebar-btn span:nth-child(3) {
-	width: 50%;
-}
-.pictures {
-	padding-top: 500px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin: 10px;
-}
-.twitter {
-	position: absolute;
-	bottom: 0px;
-	left: 10px;
-	height: 50px;
-	width: 50px;
-}
-.instagram{
-	position: absolute;
-	left: 75px;
-	bottom: 0px;
-	height: 50px;
-	width: 50px;
-}
-.facebook {
-	position: absolute;
-	right: 10px;
-	bottom: 0px;
-	height: 50px;
-	width: 50px;
+@media screen and  (max-width: 320px) {
+	h3	{	width: 100%;    }
 }
 
 
-@media (min-width:1200px) {
-	body {
-		background-color: green;
-		max-width: 1200px;
-	}
-}
-@media (min-width: 768px) and (max-width: 979px){
-	body {
-		background-color: yellow;
-		max-width: 768px;
-	}
-	}
-}
-@media (min-width: 767px) and (max-width: 970px) {
-	body {
-		background-color: gray;
-		max-width: 970px;
-	}
-}
+
+
 
 
 
