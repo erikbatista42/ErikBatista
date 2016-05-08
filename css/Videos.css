@@ -51,7 +51,7 @@
 				background: #1C1E1F;
 				color: white;
 				display: block;
-				border-bottom: 1px solid cyan;
+				border-bottom: 1px solid #1abc9c;
 				width: 180px;
 				padding: 10px;
 				list-style: none;
@@ -110,39 +110,83 @@
 
 			body {
 				/*background-image: url("http://eskipaper.com/images/stars-wallpaper-20.jpg");
-				background: cover; */
-				background-color: cyan;
+			h	background: cover; */
+				background-color:   #1abc9c;
 			}
 
 
-			.meimg:hover, .meimg:focus, .meimg:active {
-				-webkit-transform: scale(2.0); 
-				transition:  1s;
-			}
-
-			.me {
-				
-				text-align: center;
-			}
-			.meimg {
-
-				padding-top: 50px;
-				width:  100px;
-				height: 100px;
 				
 			}
 
-			h3 {
-				text-align:  center;
-				font-size: 125px;
-				color: white;
-				font-family: 'Quantico', Helvetica;
-				
-				
-			}
+
+
 			.fixedWidth {
 				width: 200px;
 			}
+			.videos {
+				text-align: center;
+				padding-top: 50px;
+			}
+			@media only screen and (max-width: 668px) {
+				iframe {
+					width:  300px;
+					height: 400px;
+				}
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			
 
 
