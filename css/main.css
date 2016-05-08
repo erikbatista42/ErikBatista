@@ -143,7 +143,14 @@
 			.fixedWidth {
 				width: 200px;
 			}
-			
+			@media only screen and (max-width: 768px) {
+    /*for mobile devices*/
+	h3 {
+		font-size:  70px;
+		width:  100%;
+	}
+	
+}
 
 
 
