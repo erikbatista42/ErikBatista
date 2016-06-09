@@ -51,7 +51,7 @@
 				background: #1C1E1F;
 				color: white;
 				display: block;
-				border-bottom: 1px solid cyan;
+				border-bottom: 1px solid #3b5998;
 				width: 180px;
 				padding: 10px;
 				list-style: none;
@@ -109,9 +109,9 @@
 
 
 			body {
-				/*background-image: url("http://eskipaper.com/images/stars-wallpaper-20.jpg");
-				background: cover; */
-				background-color: #000080;
+				background-image: url("img/purpleSpace.jpg");
+				background: cover; 
+				background-color:#395693;
 			}
 
 
