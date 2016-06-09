@@ -51,7 +51,7 @@
 				background: #1C1E1F;
 				color: white;
 				display: block;
-				border-bottom: 1px solid #3b5998;
+				border-bottom: 1px solid purple;
 				width: 180px;
 				padding: 10px;
 				list-style: none;
@@ -111,7 +111,7 @@
 			body {
 				background-image: url("img/purpleSpace.jpg");
 				background: cover; 
-				background-color:#395693;
+				background-color:  purple;
 				background-repeat: no-repeat;
 				-webkit-background-size: cover;
 				-moz-background-size:cover;
