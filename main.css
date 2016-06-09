@@ -112,6 +112,10 @@
 				background-image: url("img/purpleSpace.jpg");
 				background: cover; 
 				background-color:#395693;
+				background-repeat: no-repeat;
+				-webkit-background-size: cover;
+				-moz-background-size:cover;
+				o-background-sizr: cover;
 			}
 
 
