@@ -51,7 +51,7 @@
 				background: #1C1E1F;
 				color: white;
 				display: block;
-				border-bottom: 1px solid purple;
+				border-bottom: 1px solid white;
 				width: 180px;
 				padding: 10px;
 				list-style: none;
@@ -109,9 +109,9 @@
 
 
 			body {
-				background-image: url("img/purpleSpace.jpg");
+				background-image: url("img/maxresdefault.jpg");
 				background: cover; 
-				background-color:  purple;
+				background-color:  black;
 				background-repeat: no-repeat;
 				-webkit-background-size: cover;
 				-moz-background-size:cover;
@@ -130,7 +130,7 @@
 			}
 			.meimg {
 
-				padding-top: 50px;
+				padding-top: 70px;
 				width:  100px;
 				height: 100px;
 				
