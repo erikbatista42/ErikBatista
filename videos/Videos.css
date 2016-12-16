@@ -50,8 +50,8 @@
 				font-family: Helvetica;
 				background: #1C1E1F;
 				color: white;
-				display: block;
-				border-bottom: 1px solid #1abc9c;
+				display: block;	
+				border-bottom: 1px solid white;
 				width: 180px;
 				padding: 10px;
 				list-style: none;
@@ -111,7 +111,7 @@
 			body {
 				/*background-image: url("http://eskipaper.com/images/stars-wallpaper-20.jpg");
 			h	background: cover; */
-				background-color:   #1abc9c;
+				background-color:   black;
 			}
 
 
