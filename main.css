@@ -1,4 +1,4 @@
-body {
+vbody {
 	background-color: white;
 /* 	background-color: rgb(29, 36, 49); 	*/
 }
@@ -14,17 +14,19 @@ div {
 
 a {
 	
-	font-family: helvetica;
+	font-family: avenir;
 	font-weight: 500px;
 	color: white;
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 20px;
 	letter-spacing: 1px;
-	line-height: 25px;
+	line-height: 15px;
 	float: right;
+	font-size: 11.5px;
+	font-weight: normal;
 }
-.nav {
-	height: 88px;
-	line-height: 88px;
+a:hover {
+	transition: 0.3s;
+	background-color: rgb(48, 58,77);
 }
