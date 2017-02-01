@@ -1,4 +1,4 @@
-vbody {
+body {
 	background-color: white;
 /* 	background-color: rgb(29, 36, 49); 	*/
 }
@@ -30,3 +30,24 @@ a:hover {
 	transition: 0.3s;
 	background-color: rgb(48, 58,77);
 }
+#logo {
+	color: white;
+	padding-left: 15px;
+	font-family: avenir;
+	font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
