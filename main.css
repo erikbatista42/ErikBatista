@@ -4,7 +4,7 @@ body {
 background-image: url(public/img/giphy.gif);
 background-size: cover;
 }
-div {
+#navDiv {
 	background-color: blue;
 	height: 89px;
 	position: absolute;
@@ -40,9 +40,62 @@ a:hover {
 	font-family: avenir;
 	font-weight: lighter;
 }
+#profileImg {
+	position: absolute;
+	padding: 200px;
+	height: 300px;
+	width: 300px;
+}
+#aboutDiv {
+	position: absolute;
+	top: 130px;
+	right: 350px;
+	font-family: avenir;
+	font-weight: 500px;
+	color: rgb(59, 199, 236);
+	
+	padding: 20px;
+	letter-spacing: 2px;
+	line-height: 15px;
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+}
 
+.flyText {
+	list-style: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	color: rgb(59, 199, 236);
+}
+.flyText li {
+	display: inline-block;
+	margin-right: 50px;
+	font-family: Avenir, Arial;
+	font-weight: bold;
+	font-size: 20px;
+	opacity: 1;
+	transition: all 2.5s ease;
 
+}
+.flyText li:last-child {
+	margin-right: 0;
+}
 
+.flyText.hidden li {
+	opacity: 0;
+
+}
+
+.flyText.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px); }
+.flyText.hidden  li:nth-child(2) { transform: translateX(-20px) translateY(100px); }
+.flyText.hidden  li:nth-child(3) { transform: translateX(-150px) translateY(-80px); }
+.flyText.hidden  li:nth-child(4) { transform: translateX(10px) translateY(-200px); }
+.flyText.hidden  li:nth-child(5) { transform: translateX(-300px) translateY(-200px); }
+.flyText.hidden  li:nth-child(6) { transform: translateX(20px) translateY(-20px); }
+.flyText.hidden  li:nth-child(7) { transform: translateX(30px) translateY(200px); }
 
 
 
