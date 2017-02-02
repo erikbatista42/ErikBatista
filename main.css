@@ -109,6 +109,7 @@ a:hover {
 	left: 0;
 	bottom: 0;
 	top: 88px;
+	height: 100%;
 }
 #about {
 	background-color: rgb(29,36,49);
