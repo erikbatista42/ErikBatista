@@ -115,9 +115,8 @@ a:hover {
 	position: relative;
 	top: 660px;
 	margin: 0 -9999rem;
-	padding: 4.25rem 999rem;
+	padding: 4.25rem ;
 	height: 500px;
-	background-size: contain; 
 	text-align: center;
 }
 #about > h1 {
@@ -141,16 +140,46 @@ a:hover {
 	font-weight: lighter;
 
 }
+#header {
+	position: relative;
+	text-align: center;
+	color: #258EBD;
+	font-family: helvetica;
+	font-weight: lighter;
+}
 #books {
-	background-color: #3A539B;
+	background-color: white;
 	position: relative;
 	top: 660px;
 	margin: 0 -9999rem;
-	padding: 5.25rem 999rem;
+	padding: 4.25rem ;
+	height: 700px;
 	text-align: center;
-	color: white;
-	height: 500px;
 }
+#richDad, #nonna, #meditations, #recall, #titans, #dale {
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
