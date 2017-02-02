@@ -1,7 +1,7 @@
 body {
 	background-color: rgb(18,18,18); 
 /* 	background-color: rgb(29, 36, 49); 	*/
-background-image: url(public/img/giphy.gif);
+
 background-size: cover;
 }
 #navDiv {
@@ -12,6 +12,8 @@ background-size: cover;
 	left: 0px;
 	right: 0px;
 	background-color: rgb(24, 24, 24);
+	overflow-x:  : hidden;
+	margin: 0;
 }
 
 a {
@@ -98,8 +100,53 @@ a:hover {
 .flyText.hidden  li:nth-child(7) { transform: translateX(30px) translateY(200px); }
 
 
+#flyTextDiv {
+	background-color: white;
+	background-image: url(public/img/giphy.gif);
+	background-size: cover;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	top: 88px;
+}
+#about {
+	background-color: rgb(29,36,49);
+	position: relative;
+	top: 660px;
+	margin: 0 -9999rem;
+	padding: 4.25rem 999rem;
+	height: 500px;
+	background-size: contain; 
+	text-align: center;
+}
+#about > h1 {
+	font-family: avenir;
+	font-weight: 500px;
+	color: rgb(59, 199, 236);
+	text-align: center;
+	font-weight: 500;
+}
+#aboutPDiv {
+	text-align: center;
 
+}
+#aboutPDiv > p {
+	color: white;
+	font-size: 20px;
+	font-family: helvetica;
 
+}
+#books {
+	background-color: #3A539B;
+	position: relative;
+	top: 660px;
+	margin: 0 -9999rem;
+	padding: 5.25rem 999rem;
+	text-align: center;
+	color: white;
+	height: 500px;
+}
 
 
 
