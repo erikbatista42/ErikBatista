@@ -1,5 +1,9 @@
-$(function() {} {
-	setTimeOut(function() {
+
+	$(function() {
+
+	setTimeout(function() {
+
 		$('.flyText').removeClass('hidden');
+
 	}, 500);
-}();
+})();
