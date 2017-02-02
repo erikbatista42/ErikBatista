@@ -127,6 +127,9 @@ a:hover {
 	text-align: center;
 	font-weight: 500;
 }
+#about > img {
+	border-radius: 50%;
+}
 #aboutPDiv {
 	text-align: center;
 
@@ -135,6 +138,7 @@ a:hover {
 	color: white;
 	font-size: 20px;
 	font-family: helvetica;
+	font-weight: lighter;
 
 }
 #books {
