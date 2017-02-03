@@ -16,7 +16,7 @@ background-size: cover;
 	margin: 0;
 }
 
-a {
+#nav > a {
 	
 	font-family: avenir;
 	font-weight: 500px;
@@ -32,7 +32,7 @@ a {
 	opacity: 1;
 
 }
-a:hover {
+#nav > a:hover {
 	transition: 0.3s;
 	background-color: rgb(40, 40,40);
 }
@@ -187,7 +187,7 @@ a:hover {
 }
 #organizationsH2 {
 	color: white;
-	
+	font-family: avenir;
 }
 
 
