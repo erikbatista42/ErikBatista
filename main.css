@@ -109,7 +109,7 @@ a:hover {
 	left: 0;
 	bottom: 0;
 	top: 88px;
-	height: 100%;
+	height: 700px;
 }
 #about {
 	background-color: rgb(29,36,49);
@@ -117,7 +117,7 @@ a:hover {
 	top: 660px;
 	margin: 0 -9999rem;
 	padding: 4.25rem ;
-	height: 500px;
+	height: 550px;
 	text-align: center;
 }
 #about > h1 {
@@ -157,8 +157,8 @@ a:hover {
 	height: 700px;
 	text-align: center;
 }
-#richDad, #nonna, #meditations, #recall, #titans, #dale {
-	padding: 20px;
+#richDad, #nonna, #meditations, #recall, #workWeek, #dale {
+	padding: 15px;
 }
 
 
