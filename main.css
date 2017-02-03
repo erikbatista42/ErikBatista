@@ -161,8 +161,34 @@ a:hover {
 	padding: 15px;
 }
 
+#organizations {
+	background-color: rgb(40, 40,40);
 
+}
+#organizations > h1 {
+	padding-top: 30px;
+	font-family: avenir;
+	font-weight: 500px;
+	color: rgb(59, 199, 236);
+	text-align: center;
+	font-weight: 500;
+}
+#organizations {
+	background-color: rgb(29,36,49);
+	margin: 0 -9999rem;
+	padding: 4.25rem ;
+	height: 550px;
+	text-align: center;
+}
 
+#hackClub, #nano {
+	display: inline-block;
+	padding: 30px;
+}
+#organizationsH2 {
+	color: white;
+	
+}
 
 
 
