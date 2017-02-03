@@ -189,10 +189,23 @@ background-size: cover;
 	color: white;
 	font-family: avenir;
 }
-
-
-
-
+#organizationsH4 {
+	color: white;
+	font-family: avenir;
+	font-weight: lighter;
+}
+#organizationsh3 {
+	color: rgb(84, 194, 249);
+	text-decoration: none;
+	font-size: 20px;
+}
+#organizationsP {
+	color: white;
+	font-size: 20px;
+	font-family: helvetica;
+	font-weight: lighter;
+}
+	
 
 
 
