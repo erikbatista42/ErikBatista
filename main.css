@@ -146,7 +146,7 @@ background-size: cover;
 	text-align: center;
 	color: #258EBD;
 	font-family: helvetica;
-	font-weight: lighter;
+	ffont-weight: bold;
 }
 #books {
 	background-color: white;
@@ -206,7 +206,23 @@ background-size: cover;
 	font-weight: lighter;
 }
 	
-
+#projects {
+	background-color: rgb(15,74,0);
+	margin: 0 -9999rem;
+	padding: 4.25rem ;
+	height: 550px;
+	text-align: center;
+	position: relative;
+	top: 1325px
+}
+#projects > h1 {
+	padding-top: 30px;
+	font-family: avenir;
+	font-weight: 500px;
+	color: rgb(59, 199, 236);
+	text-align: center;
+	font-weight: 500;
+}
 
 
 
