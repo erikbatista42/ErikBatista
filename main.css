@@ -7,7 +7,7 @@ background-size: cover;
 #navDiv {
 	background-color: blue;
 	height: 89px;
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	left: 0px;
 	right: 0px;
@@ -237,9 +237,32 @@ background-size: cover;
 	font-family: helvetica;
 	font-weight: lighter;
 }
+#hackathons {
+	height: 300px;
+	background-color: rgb(48,58,77);
+	position: relative;
+	top: 1325px;
+}
+#hackathons {
+	text-align: center;
+	padding-top: 100px;
+}
+#hackathonsH1 {
+	font-family: avenir;
+	font-weight: 500px;
+	color: rgb(59, 199, 236);
+	text-align: center;
+	font-weight: 500;
+}
+#hackathonsP {
+	display: inline-block;
+	color: white;
+	font-size: 30px;
+	font-family: helvetica;
+	font-weight: lighter;
+	padding: 20px;
 
-
-
+}
 
 
 
