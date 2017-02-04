@@ -230,6 +230,24 @@ background-size: cover;
 
 
 
+#BeTheMindsetApp, #FoodPin {
+	display: inline-block;
+	padding: 30px;
+}
+#projectsH2 {
+	color: white;
+	font-family: avenir;
+}
+#projectsP {
+	color: white;
+	font-size: 20px;
+	font-family: helvetica;
+	font-weight: lighter;
+}
+
+
+
+
 
 
 
