@@ -227,6 +227,10 @@ background-size: cover;
 	display: inline-block;
 	padding: 30px;
 }
+#btmWeb, #loveCalc {
+	display: inline-block;
+	padding: 30px;
+}
 #projectsH2 {
 	color: white;
 	font-family: avenir;
@@ -263,11 +267,21 @@ background-size: cover;
 	padding: 20px;
 
 }
-
-
-
-
-
+#contact {
+	height: 300px;
+	color: white;
+	position: relative;
+	top: 1305px;
+	background-color: black;
+}
+#contact > h1 {
+	text-align: center;
+	padding-top: 50px;
+	font-family: avenir;
+	font-weight: 500px;
+	color: rgb(59, 199, 236);
+	font-weight: 500;
+}
 
 
 
