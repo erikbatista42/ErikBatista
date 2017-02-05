@@ -282,8 +282,14 @@ background-size: cover;
 	color: rgb(59, 199, 236);
 	font-weight: 500;
 }
+#contact {
+	text-align: center;
+}
+#contactImgs {
+	padding-left: 10px;
+	padding-right: 10px;
 
-
+}
 
 
 
