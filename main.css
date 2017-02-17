@@ -42,11 +42,12 @@ background-size: cover;
 	transition: 0.2s;
 }
 #logo {
-	color: rgb(78, 78, 78);
+	color: white;
 	padding-left: 15px;
 	padding-top: 10px;
 	font-family: avenir;
 	font-weight: lighter;
+	opacity: 0.5;
 
 }
 #logoA {
@@ -54,8 +55,8 @@ background-size: cover;
 }
 #logo:hover {
 	color: white;
-	opacity: 0.5;
-	transition: 0.5s;
+	transition: 0.2s;
+	opacity: 1.0;
 
 }
 
