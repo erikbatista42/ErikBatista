@@ -1,19 +1,22 @@
 body {
-	background-color: rgb(18,18,18); 
+	background-image: linear-gradient(to right bottom, rgb(136, 90, 255) 0%, rgb(23, 73, 229) 100%);
 /* 	background-color: rgb(29, 36, 49); 	*/
 
 background-size: cover;
 }
 #navDiv {
-	background-color: blue;
+	background-color: rgb(56,112,221); 
 	height: 64px;
 	position: fixed;
 	top: 0px;
 	left: 0px;
 	right: 0px;
-	background-color: #009688;
-	overflow-x:  : hidden;
+	background-color:;
+	overflow-x: hidden;
 	margin: 0;
+	line-height: 1px;
+	
+
 }
 
 #nav > a {
@@ -22,24 +25,40 @@ background-size: cover;
 	color: white;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding: 20px;
+	padding: 22px;
+	padding-top: 15px;
 	letter-spacing: 1px;
 	float: right;
-	font-size: 11.5px;
-	font-weight: normal;
-	opacity: 1;
+	font-size: 14px;
+	opacity: 0.5;
+	font-weight: bold;
 
 }
 #nav > a:hover {
-	transition: 0.3s;
-	background-color: rgb(40, 40,40);
+	/*background-color: rgb(40, 40,40);*/
+	/*transition: border-bottom-color .1s ease-out;*/
+	color: white;
+	opacity: 1.0;
+	transition: 0.2s;
 }
 #logo {
 	color: rgb(78, 78, 78);
 	padding-left: 15px;
+	padding-top: 10px;
 	font-family: avenir;
 	font-weight: lighter;
+
 }
+#logoA {
+	text-decoration: none;
+}
+#logo:hover {
+	color: white;
+	opacity: 0.5;
+	transition: 0.5s;
+
+}
+
 #profileImg {
 	position: absolute;
 	padding: 200px;
@@ -53,7 +72,6 @@ background-size: cover;
 	font-family: avenir;
 	font-weight: 500px;
 	color: rgb(59, 199, 236);
-	
 	padding: 20px;
 	letter-spacing: 2px;
 	line-height: 15px;
@@ -68,17 +86,16 @@ background-size: cover;
 	left: 50%;
 	top: 50%;
 	transform: translateX(-50%) translateY(-50%);
-	color: rgb(59, 199, 236);
+	color: white;
 }
 .flyText li {
 	display: inline-block;
 	margin-right: 50px;
 	font-family: Avenir, Arial;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 50px;
 	opacity: 1;
 	transition: all 2.5s ease;
-
 }
 .flyText li:last-child {
 	margin-right: 0;
@@ -88,7 +105,6 @@ background-size: cover;
 	opacity: 0;
 
 }
-
 .flyText.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px); }
 .flyText.hidden  li:nth-child(2) { transform: translateX(-20px) translateY(100px); }
 .flyText.hidden  li:nth-child(3) { transform: translateX(-150px) translateY(-80px); }
@@ -99,18 +115,18 @@ background-size: cover;
 
 
 #flyTextDiv {
-	background-color: white;
-	background-image: url(public/img/giphy.gif);
 	background-size: cover;
 	position: absolute;
 	right: 0;
 	left: 0;
 	bottom: 0;
-	top: 88px;
-	height: 700px;
+	top:0px;
+	height: 670px;
+	background-image: url();
+	back
 }
 #about {
-	background-color: rgb(29,36,49);
+	background-color: ;
 	position: relative;
 	top: 660px;
 	padding: 4.25rem ;
@@ -120,9 +136,10 @@ background-size: cover;
 #about > h1 {
 	font-family: avenir;
 	font-weight: 500px;
-	color: rgb(59, 199, 236);
+	color: white;
 	text-align: center;
 	font-weight: 500;
+
 }
 #about > img {
 	border-radius: 50%;
@@ -139,16 +156,17 @@ background-size: cover;
 
 }
 #header {
-	position: relative;
+	font-family: avenir;
+	font-weight: 500px;
+	color: white;
 	text-align: center;
-	color: #258EBD;
-	font-family: helvetica;
-	ffont-weight: bold;
+	font-weight: 500;
+
 }
 #books {
-	background-color: white;
+	background-color: ;
 	position: relative;
-	top: 660px;
+	top: 500px;
 	padding: 4.25rem ;
 	height: 700px;
 	text-align: center;
@@ -157,23 +175,25 @@ background-size: cover;
 	padding: 15px;
 }
 
-#organizations {
-	background-color: rgb(40, 40,40);
-
+#organizations > a:hover {
+	
+	color: white;
 }
 #organizations > h1 {
-	padding-top: 30px;
 	font-family: avenir;
 	font-weight: 500px;
-	color: rgb(59, 199, 236);
+	color: white;
 	text-align: center;
 	font-weight: 500;
+
 }
 #organizations {
-	background-color: rgb(29,36,49);
-	padding: 4.25rem ;
-	height: 550px;
+	padding: 3.25rem ;
+	height: 570px;
 	text-align: center;
+	position: absolute;
+	right: 0;
+	left: 0px;
 }
 
 #hackClub, #nano {
@@ -202,12 +222,12 @@ background-size: cover;
 }
 	
 #projects {
-	background-color: rgb(18,18,18);
+	
 	padding: 4.25rem ;
 	height: 1000px;
 	text-align: center;
 	position: relative;
-	top: 1325px
+	top: 1050px
 }
 #projects > h1 {
 	padding-top: 30px;
@@ -237,9 +257,9 @@ background-size: cover;
 }
 #hackathons {
 	height: 300px;
-	background-color: rgb(48,58,77);
+	
 	position: relative;
-	top: 1325px;
+	top: 1025px;
 }
 #hackathons {
 	text-align: center;
@@ -265,8 +285,8 @@ background-size: cover;
 	height: 300px;
 	color: white;
 	position: relative;
-	top: 1305px;
-	background-color: black;
+	top: 900px;
+	
 }
 #contact > h1 {
 	text-align: center;
