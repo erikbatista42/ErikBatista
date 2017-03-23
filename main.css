@@ -16,6 +16,8 @@ background-color: rgb(103,85,248);
 	overflow-x: hidden;
 	margin: 0;
 	line-height: 1px;
+
+
 }
 
 #nav > a {
@@ -51,8 +53,11 @@ background-color: rgb(103,85,248);
 	font-family: avenir;
 	font-weight: lighter;
 	opacity: 0.5;
-    font-size: 30px;
+    font-size: 35px;
 }
+
+
+
 #profileImg {
 	position: absolute;
 	padding: 200px;
