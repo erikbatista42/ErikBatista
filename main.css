@@ -142,6 +142,7 @@ background-color: rgb(103,85,248);
 }
 #about > img {
 	border-radius: 50%;
+    background-size: 175px auto;
 }
 #aboutPDiv {
 	text-align: center;
