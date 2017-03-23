@@ -1,4 +1,4 @@
-body {
+ body {
 	background-image: linear-gradient(to right bottom, rgb(136, 90, 255) 0%, rgb(23, 73, 229) 100%);
 /* 	background-color: rgb(29, 36, 49); 	*/
 
@@ -6,7 +6,7 @@ background-size: cover;
 background-color: rgb(103,85,248);
 }
 #navDiv {
-	background-color: rgb(56,112,221); 
+	background-color: rgb(56,112,221);
 	height: 64px;
 	position: fixed;
 	top: 0px;
@@ -16,8 +16,6 @@ background-color: rgb(103,85,248);
 	overflow-x: hidden;
 	margin: 0;
 	line-height: 1px;
-	
-
 }
 
 #nav > a {
@@ -43,28 +41,18 @@ background-color: rgb(103,85,248);
 	color: white;
 	opacity: 1.0;
 	transition: 0.2s;
-	
-	
+
+
 }
-#logo {
+.logo {
 	color: white;
 	padding-left: 15px;
-	padding-top: 10px;
+	padding-top: 15px;
 	font-family: avenir;
 	font-weight: lighter;
 	opacity: 0.5;
-
+    font-size: 30px;
 }
-#logoA {
-	text-decoration: none;
-}
-#logo:hover {
-	color: white;
-	transition: 0.2s;
-	opacity: 1.0;
-
-}
-
 #profileImg {
 	position: absolute;
 	padding: 200px;
@@ -182,7 +170,7 @@ background-color: rgb(103,85,248);
 }
 
 #organizations > a:hover {
-	
+
 	color: white;
 }
 #organizations > h1 {
@@ -227,9 +215,9 @@ background-color: rgb(103,85,248);
 	font-family: helvetica;
 	font-weight: lighter;
 }
-	
+
 #projects {
-	
+
 	padding: 4.25rem ;
 	height: 1000px;
 	text-align: center;
@@ -264,7 +252,7 @@ background-color: rgb(103,85,248);
 }
 #hackathons {
 	height: 300px;
-	
+
 	position: relative;
 	top: 1025px;
 }
@@ -293,7 +281,7 @@ background-color: rgb(103,85,248);
 	color: white;
 	position: relative;
 	top: 900px;
-	
+
 }
 #contact > h1 {
 	text-align: center;
@@ -368,7 +356,3 @@ background-color: rgb(103,85,248);
     	display: none;
     }
 }
-
-
-
-
