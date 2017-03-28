@@ -1,4 +1,4 @@
-body {
+ body {
 	background-image: linear-gradient(to right bottom, rgb(136, 90, 255) 0%, rgb(23, 73, 229) 100%);
 /* 	background-color: rgb(29, 36, 49); 	*/
 
@@ -46,20 +46,18 @@ background-color: rgb(103,85,248);
 
 
 }
-#logo {
+.logo {
 	color: white;
 	padding-left: 15px;
-	padding-top: 10px;
+	padding-top: 15px;
 	font-family: avenir;
 	font-weight: lighter;
 	opacity: 0.5;
-
+    font-size: 35px;
 }
 #logoA {
 	text-decoration: none;
 }
-
-
 #profileImg {
 	position: absolute;
 	padding: 200px;
@@ -144,6 +142,7 @@ background-color: rgb(103,85,248);
 }
 #about > img {
 	border-radius: 50%;
+    background-size: 175px auto;
 }
 #aboutPDiv {
 	text-align: center;
