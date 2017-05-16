@@ -13,7 +13,6 @@
 body {
 	background-color: rgb(14,14,14);
 	color: white;
-	
 	font-size: 36px;
 }
 .nav { 
@@ -46,7 +45,6 @@ a:hover:after {
     width: 100%;
     background: white;
 }
-
 h1 {
 	-webkit-font-smoothing: antialiased;
 	font-family: "San Francisco";
