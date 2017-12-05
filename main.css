@@ -1,9 +1,9 @@
 body {
 	font-family: sans-serif, cursive;
-	font-size: 18px;
+	font-size: 16px;
 	/*background: #eee;*/
 
-background-image: linear-gradient(to right bottom, rgb(60, 60, 120) 0%, rgb(140, 95, 123) 100%);
+background-image: linear-gradient(to right bottom, rgb(136, 90, 255) 0%, rgb(23, 73, 229) 100%);
 
 
 }
