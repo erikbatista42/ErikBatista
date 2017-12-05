@@ -1,7 +1,11 @@
 body {
-	font-family: 'Indie Flower', cursive;
-	font-size: 16px;
-	background: #eee;
+	font-family: sans-serif, cursive;
+	font-size: 18px;
+	/*background: #eee;*/
+
+background-image: linear-gradient(to right bottom, rgb(60, 60, 120) 0%, rgb(140, 95, 123) 100%);
+
+
 }
 
 footer {
