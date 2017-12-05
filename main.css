@@ -22,7 +22,7 @@ footer a {
 }
 
 footer a:hover, footer a:focus {
-	color: #abc123;
+	color: pink;
 	text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ p.lead {
 }
 
 hr.secDiv {
-	border: 3px solid #ccc;
+	border: 1px solid white;
 	box-shadow: 0 1px 0 #999;
 	margin: 30px 0;
 }
@@ -67,14 +67,14 @@ header.top h3 {
 }
 
 .social a {
-	color: #666;
+	color: rgb(189,176, 194);
 	text-decoration: none;
 	transition: all 0.3s;
 }
 
 .social a:hover,
 .social a:focus {
-	color: #111;
+	color: white;
 	text-shadow: 0px 0px 3px #111;
 }
 
